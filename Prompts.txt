@@ -1,0 +1,6 @@
+ - generate a project in C++ raylib to display the functionality of a linked list
+
+- add functionality to this code to allow for inserting nodes in the middle of the list [code block]
+
+- asked for improvements, asked to add said improvements to code block
+ encountered error: some Unicode characters couldn't be saved
