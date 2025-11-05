@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7223710C-5E1D-9A5E-478A-306F332300CB}|build\\build_files\\raylib-quickstart-main.vcxproj|C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7223710C-5E1D-9A5E-478A-306F332300CB}|build\\build_files\\raylib-quickstart-main.vcxproj|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7223710C-5E1D-9A5E-478A-306F332300CB}|build\\build_files\\raylib-quickstart-main.vcxproj|C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\include\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7223710C-5E1D-9A5E-478A-306F332300CB}|build\\build_files\\raylib-quickstart-main.vcxproj|solutionrelative:include\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7223710C-5E1D-9A5E-478A-306F332300CB}|build\\build_files\\raylib-quickstart-main.vcxproj|C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\src\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7223710C-5E1D-9A5E-478A-306F332300CB}|build\\build_files\\raylib-quickstart-main.vcxproj|solutionrelative:src\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "game.h",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\include\\game.h",
+              "RelativeDocumentMoniker": "include\\game.h",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\include\\game.h",
+              "RelativeToolTip": "include\\game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-16T09:41:00.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "game.cpp",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\src\\game.cpp",
+              "RelativeDocumentMoniker": "src\\game.cpp",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\src\\game.cpp",
+              "RelativeToolTip": "src\\game.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-16T09:40:57.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\gameuser\\Desktop\\College Work\\GameProg\\AIProject\\raylib-quickstart-main\\src\\main.cpp*",
+              "RelativeToolTip": "src\\main.cpp*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-16T09:21:14.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -22,12 +22,12 @@ void LinkedListVisualizer::DrawInputBox(Rectangle rect, std::string& input, bool
 void LinkedListVisualizer::Update() {
     float uiScale = screenWidth / 1600.0f;
 
-    Rectangle valueBox = { 30 * uiScale, 60 * uiScale, 140 * uiScale, 35 * uiScale };
-    Rectangle indexBox = { 200 * uiScale, 60 * uiScale, 140 * uiScale, 35 * uiScale };
-    Rectangle insertBeforeBtn = { 370 * uiScale, 60 * uiScale, 140 * uiScale, 35 * uiScale };
-    Rectangle insertAfterBtn = { 530 * uiScale, 60 * uiScale, 140 * uiScale, 35 * uiScale };
-    Rectangle addEndBtn = { 690 * uiScale, 60 * uiScale, 100 * uiScale, 35 * uiScale };
-    Rectangle deleteLastBtn = { 810 * uiScale, 60 * uiScale, 140 * uiScale, 35 * uiScale };
+    Rectangle valueBox = { 30 * uiScale, 100 * uiScale, 140 * uiScale, 35 * uiScale };
+    Rectangle indexBox = { 200 * uiScale, 100 * uiScale, 140 * uiScale, 35 * uiScale };
+    Rectangle insertBeforeBtn = { 370 * uiScale, 100 * uiScale, 140 * uiScale, 35 * uiScale };
+    Rectangle insertAfterBtn = { 530 * uiScale, 100 * uiScale, 140 * uiScale, 35 * uiScale };
+    Rectangle addEndBtn = { 690 * uiScale, 100 * uiScale, 100 * uiScale, 35 * uiScale };
+    Rectangle deleteLastBtn = { 810 * uiScale, 100 * uiScale, 140 * uiScale, 35 * uiScale };
 
     if (CheckCollisionPointRec(GetMousePosition(), valueBox) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
     {
@@ -76,8 +76,8 @@ void LinkedListVisualizer::Update() {
 
 void LinkedListVisualizer::Draw() {
     float uiScale = screenWidth / 1600.0f;
-    Rectangle valueBox = { 30 * uiScale, 60 * uiScale, 140 * uiScale, 35 * uiScale };
-    Rectangle indexBox = { 200 * uiScale, 60 * uiScale, 140 * uiScale, 35 * uiScale };
+    Rectangle valueBox = { 30 * uiScale, 100 * uiScale, 140 * uiScale, 35 * uiScale };
+    Rectangle indexBox = { 200 * uiScale, 100 * uiScale, 140 * uiScale, 35 * uiScale };
 
     DrawText("Enter Value:", valueBox.x, valueBox.y - 20 * uiScale, (int)(18 * uiScale), DARKGRAY);
     DrawInputBox(valueBox, inputValue, activeValueBox, uiScale);

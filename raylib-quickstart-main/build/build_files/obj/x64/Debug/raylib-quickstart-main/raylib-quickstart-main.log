@@ -1,0 +1,16 @@
+﻿  main.cpp
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(166,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(166,31): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(167,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(167,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(169,81): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(169,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(215,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(215,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(223,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(223,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(292,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(292,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(295,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\src\main.cpp(295,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  raylib-quickstart-main.vcxproj -> C:\Users\gameuser\Desktop\College Work\GameProg\AIProject\raylib-quickstart-main\bin\Debug\raylib-quickstart-main.exe

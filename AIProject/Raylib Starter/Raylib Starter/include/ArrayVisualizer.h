@@ -7,10 +7,13 @@ struct AnimatedElement {
     int value;
     float x, y;
     float targetY;
+    float highlightTimer; // for visual feedback (seconds)
+
     AnimatedElement(int v, float xpos, float ypos, float tY)
-        : value(v), x(xpos), y(ypos), targetY(tY) {
+        : value(v), x(xpos), y(ypos), targetY(tY), highlightTimer(0.0f) {
     }
 };
+
 
 class ArrayVisualizer {
 private:
@@ -29,6 +32,12 @@ private:
     Rectangle clearButton;
 
     int maxSize = 0;
+
+    std::string indexInput;   // for entering the target index
+    bool activeIndexInput = false;
+
+    Rectangle indexBox;
+    Rectangle setAtIndexButton;
 
 public:
     ArrayVisualizer(int w, int h);

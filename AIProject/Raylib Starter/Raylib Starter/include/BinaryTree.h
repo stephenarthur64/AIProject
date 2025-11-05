@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "raylib.h"
 #include <vector>
 #include <queue>
@@ -13,8 +13,18 @@ struct TreeNode {
     Vector2 targetPosition;
     bool animating;
     bool positioned;
-    bool searchHighlight = false; // For search animation
+
+    bool searchHighlight = false;
+    bool insertHighlight = false;
+    bool foundNode = false; // NEW: indicates node was found
+
+    bool fading = false;           // true when green→blue fade
+    Color currentColor = BLUE;    // smooth transition
+    Color targetColor = BLUE;     // the color we are interpolating toward
+    float fadeTimer = 0.0f;
 };
+
+
 
 class BinaryTree {
 public:
@@ -49,6 +59,24 @@ private:
     Rectangle searchBox;
     Rectangle insertBtn;
     Rectangle searchBtn;
+
+    // Animated insertion traversal
+    bool inserting = false;
+    int insertValue = 0;
+    std::vector<TreeNode*> insertPath;
+    int insertStep = 0;
+    float insertTimer = 0.0f;
+    float insertDelay = 0.8f;
+
+    TreeNode* currentInsertNode = nullptr;
+    TreeNode* nextInsertNode = nullptr;
+    float arrowProgress = 0.0f;
+
+    std::string notificationText;
+    float notificationTimer = 0.0f;   // display duration
+    float notificationDuration = 2.0f; // 2 seconds
+
+    TreeNode* nodeToHighlight = nullptr; // node to highlight after search
 
     void DrawNode(TreeNode* node);
     void UpdateNode(TreeNode* node, float dt);
